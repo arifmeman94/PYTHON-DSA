@@ -35,3 +35,5 @@ print(11)
 x = True
 y = False
 print(x,y)
+
+#Strings
