@@ -37,3 +37,73 @@ y = False
 print(x,y)
 
 #Strings
+#Concatenation
+#The '+' sign can be used between strings to add them together to make a new string.
+#This is called concatenation.
+x = "Good"
+y = "Work"
+print(x + y)
+print(x+ " " +y) # this will add space in between two words
+
+#Python uses the + sign for both addition and concatenation.
+
+#Numbers are added.
+#Strings are concatenated.
+#We cannot mix the two
+#You are given a program which does the following
+
+#You want to output 2569
+#Try running the given code given in the IDE as it is - it will give a Compilation error
+#Fix the error so that both the variables become strings and the output is 2569
+
+# We need to output 2569 using string concatenation.
+# The code below is incorrect - Debug the code to solve the problem
+
+string1 = "25"
+string2 = "69"
+
+print(string1 + string2)
+
+#string length
+#We can use the len() function to get the length of a string.
+#Task
+#Write a program which does the following
+
+#Create a variable txt and assign it the text NumeroTres
+#Use the len() function to output to the console the number of characters in txt
+
+txt = "NumeroTres"
+print(len(txt))
+
+#Outputting Characters from a String
+#So the first character of a string s is s[0] , the second is s[1] , and so on.
+#Task
+#Write a program which does the following
+
+#Create a string variable word and assign the text Programming to it
+#Print the characters o and r from the string word in separate lines using the syntax defined above
+
+word = "Programming"
+print(word[2])
+print(word[4])
+
+#Task
+#Write a program which does the following
+
+#Initialize a string variable word and assign the value Ocygen to it.
+#You now want to fix the typo in the given string.
+#Use the syntax explained above to replace 'c' with 'x' in a new variable word_new
+#Output the updated word_new to console
+
+word = "Ocygen"
+newstr = word.replace("c","x")
+print(newstr)
+
+#String slicing
+#Task
+#Declare a string variable var
+#Assign the value String to it
+#Use string slicing to print ring to the console.
+
+var = "String"
+print(var[2:6])
