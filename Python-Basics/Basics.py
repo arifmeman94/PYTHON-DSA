@@ -107,3 +107,28 @@ print(newstr)
 
 var = "String"
 print(var[2:6])
+
+#Converting string to list using split method
+#Task: returing length of last word in string
+s= " Hello World " # here at the beginning and end blank spaces are there
+newstr = s.strip()   # strip will remove starting and ending blank spaces
+newlst = list(newstr.split(" "))  # split will split the string where blank spaces are there and list will convert it in to list
+n = len(newlst) #length of new list we created
+p = len(newlst[n-1]) # length of last word in list
+print(p)
+
+#checking String is palindrom or not
+s = "2025"
+newlist = list(s)
+print(newlist)
+newlist2= []
+n = len(s)
+i = 1
+for j in range(len(s)):
+    newlist2.append(s[n-i])
+    i = i+1
+print(newlist2)
+if newlist == newlist2:
+    print("Yes")
+else:
+    print("False")  
