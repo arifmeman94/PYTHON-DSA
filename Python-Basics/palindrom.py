@@ -18,7 +18,7 @@
             s = "flase"
         print(s) 
         '''
-class Palindrome:
+''' class Palindrome:
     def __init__(self, n):
         self.n = n
         
@@ -33,4 +33,40 @@ class Palindrome:
         for j in range(n):
             list2.append(s[n-i])
             i = i+1
-        return list2
+        return list2 '''
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        '''y = str(x)
+        list1 = list(y)
+        n = len(y)
+        i = 1
+        list2 = []
+        for j in range(n):
+            list2.append(y[n-i])
+            i = i+1
+        if list1 == list2:
+            return True
+        else:
+            return False '''
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        y = str(x)
+        ''' list1 = list(y)
+        n = len(y)
+        i = 1
+        list2 = []
+        for j in range(n):
+            list2.append(y[n-i])
+            i = i+1 '''
+        if y == y[::-1]:
+            return True
+        else:
+            return False
