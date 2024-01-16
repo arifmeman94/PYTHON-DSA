@@ -132,3 +132,21 @@ if newlist == newlist2:
     print("Yes")
 else:
     print("False")  
+
+### function ex.
+print("-------------------------")
+n=6
+sum = 0
+i = 1
+for i in range(n+1):
+    if i%2 == 0:
+        sum = sum+i
+print(sum)
+
+##### function ex, POW
+print("-------------------------------------")
+x = 2
+n = 3
+for i in range(n):
+    x = x**n
+print(x)
